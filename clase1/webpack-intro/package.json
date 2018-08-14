@@ -1,0 +1,18 @@
+{
+  "name": "webpack-intro",
+  "version": "1.0.0",
+  "description": "This repository holds the source code of my Webpack 2 Basics Series on YouTube. Make sure to watch the Videos on YouTube to understand how to use that code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack src/js/app.js -o dist/bundle.js",
+    "dev": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
